@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daimy's personal portfolio showcasing web and app development projects.">
+    <meta name="keywords" content="Daimy, Portfolio, Web Developer, App Developer, Programmer, HTML, CSS, JavaScript, Lua, C#, C++">
+    <meta name="author" content="Daimy">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://daimy.xyz/">
+    <meta property="og:title" content="Portfolio | Daimy">
+    <meta property="og:description" content="Check out Daimy's portfolio of modern apps and sleek websites.">
+    <meta property="og:image" content="https://daimy.xyz/assets/img/pfp.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://daimy.xyz/">
+    <meta name="twitter:title" content="Portfolio | Daimy">
+    <meta name="twitter:description" content="Check out Daimy's portfolio of modern apps and sleek websites.">
+    <meta name="twitter:image" content="https://daimy.xyz/assets/img/pfp.png">
+
+    <title>Portfolio | Daimy</title>
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <header>
+        <div class="logo">
+            <span>Portfolio</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-text">Hello, I'm <span class="highlight">Daimy</span></h1>
+                <h2 class="animate-text delay-1">Developer & Creator</h2>
+                <p class="animate-text delay-2">Building modern apps and sleek websites</p>                           
+                <div class="cta-buttons animate-text delay-3">
+                    <a href="#projects" class="btn primary">View Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="/assets/img/pfp.png" alt="Profile Image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Developer</h3>
+                    <p>I build websites and apps that look good and work even better.</p>
+                
+                    <h3>What I Work With</h3>
+                    <div class="skills">
+                        <div class="skill">
+                            <span class="skill-name">HTML / CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Lua</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">C# / C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <!--<button class="filter-btn" data-filter="other">Other</button>-->
+            </div>
+            <div class="project-grid">
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="/assets/img/Simple-Rat.png" alt="Simple Rat">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/itzdaimy/Simple-Rat" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Simple Rat</h3>
+                        <p>A super easy to use RAT program</p>
+                        <div class="project-tags">
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="/assets/img/Url-Tool.png" alt="URL Tool">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/itzdaimy/URL-tool" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>URL-Tool</h3>
+                        <p>A tool to fetch url data. such as scraping, embeds, analysing etc</p>
+                        <div class="project-tags">
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="/assets/img/Qr-Maker.png" alt="URL Tool">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://qr.daimy.xyz" class="project-link"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>QR Maker</h3>
+                        <p>A website/app to generate QR codes (IOS web app)</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Netherlands</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@daimy.xyz</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/itzdaimy" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                <p>&copy; 2025 Daimy. All Rights Reserved.</p>
+            </div>
+            <div class="back-to-top">
+                <a href="#home"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+</body>
+</html>
