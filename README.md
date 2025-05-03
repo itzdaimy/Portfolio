@@ -8,6 +8,7 @@ does **not** contain backend (yet)
 - About Me 
 - Expierences
 - Projects
+- Socials
 
 🔥 easy, simple, clean 
 preview: https://daimy.xyz
